@@ -1,0 +1,68 @@
+export const TOPICS = [
+  {
+    slug: 'company-registration',
+    name: 'Company Registration',
+    description: 'Everything about forming your legal entity — LLC, C-Corp, sole proprietorship, and more.',
+    icon: 'Building2',
+    color: 'blue',
+    orderIndex: 1,
+  },
+  {
+    slug: 'funding',
+    name: 'Funding & Investment',
+    description: 'Bootstrapping, angel investors, VCs, crowdfunding, and grants — demystified.',
+    icon: 'DollarSign',
+    color: 'green',
+    orderIndex: 2,
+  },
+  {
+    slug: 'legal',
+    name: 'Legal & Compliance',
+    description: 'Contracts, IP, trademarks, employment law, privacy, and regulatory compliance.',
+    icon: 'Scale',
+    color: 'purple',
+    orderIndex: 3,
+  },
+  {
+    slug: 'hiring',
+    name: 'Hiring & HR',
+    description: 'Finding co-founders, hiring first employees, onboarding, equity, and culture.',
+    icon: 'Users',
+    color: 'orange',
+    orderIndex: 4,
+  },
+  {
+    slug: 'marketing',
+    name: 'Marketing & Growth',
+    description: 'Branding, SEO, content, paid ads, product-led growth, and retention.',
+    icon: 'TrendingUp',
+    color: 'pink',
+    orderIndex: 5,
+  },
+  {
+    slug: 'taxation',
+    name: 'Taxation & Finance',
+    description: 'Tax obligations, bookkeeping, financial modeling, and managing runway.',
+    icon: 'Receipt',
+    color: 'yellow',
+    orderIndex: 6,
+  },
+  {
+    slug: 'ai-tools',
+    name: 'AI Tools for Startups',
+    description: 'Leverage AI to automate operations, build products, and accelerate growth.',
+    icon: 'Bot',
+    color: 'cyan',
+    orderIndex: 7,
+  },
+  {
+    slug: 'scaling',
+    name: 'Scaling & Operations',
+    description: 'Processes, team structure, SaaS metrics, and building systems that scale.',
+    icon: 'Rocket',
+    color: 'red',
+    orderIndex: 8,
+  },
+] as const;
+
+export type TopicSlug = (typeof TOPICS)[number]['slug'];
