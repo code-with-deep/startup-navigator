@@ -2,7 +2,9 @@
 
 > AI-powered knowledge platform for startup founders — built with Next.js 16, JWT auth, OpenAI RAG, and Supabase.
 
-**Live URL:** _https://your-deployment.vercel.app_ (update after deployment)
+**Live URL:** https://startup-navigator-psi.vercel.app
+
+**GitHub:** https://github.com/code-with-deep/startup-navigator
 
 ---
 
